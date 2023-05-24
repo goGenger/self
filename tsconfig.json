@@ -38,7 +38,7 @@
       "@connectors/*": ["src/connectors/*"],
       "@abis/*": ["src/abis/*"],
       "@types/*": ["src/types/*"],
-      "@routes/*": ["src/routes/*"],
+      "@routes/*": ["src/routes/*"]
     }
   },
   "include": ["src", "tests"],

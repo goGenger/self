@@ -1,4 +1,4 @@
-import { lazy } from "react";
+import { lazy } from 'react';
 
 export interface RouteConfig {
   path: string;
@@ -7,12 +7,12 @@ export interface RouteConfig {
 
 const routes: RouteConfig[] = [
   {
-    path: "/",
-    component: lazy(() => import("@pages/Home/index")),
+    path: '/',
+    component: lazy(() => import('@pages/Home/index')),
   },
   {
-    path: "/about",
-    component: lazy(() => import("@pages/About/index")),
+    path: '/about',
+    component: lazy(() => import('@pages/About/index')),
   },
 ];
 

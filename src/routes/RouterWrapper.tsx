@@ -1,8 +1,8 @@
 // RouterWrapper.tsx
-import React, { useState } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { RouteConfig } from "@routes/index";
-import Loading from "@components/Loading";
+import React, { useState } from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { RouteConfig } from '@routes/index';
+import Loading from '@components/Loading';
 
 interface RouterWrapperProps {
   routes: RouteConfig[];
